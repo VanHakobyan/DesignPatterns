@@ -11,7 +11,7 @@ Prototype	|Decorator	     |Iterator
 Singleton     |        Facade	       |Mediator	
 .             |Flyweight	     |Memento	
  .            | Proxy          |Observer	
-<p></p>|<p></p> |State	
+&rarr;|&rarr;|State	
 | |Strategy	
 | |Template 
 | |Visitor
