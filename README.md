@@ -12,7 +12,7 @@ Singleton     |        Facade	       |Mediator
 .             |Flyweight	     |Memento	
  .            | Proxy          |Observer	
 &rarr;|&rarr;|State	
-| |Strategy	
+&nbsp;| &nbsp;|Strategy	
 | |Template 
 | |Visitor
 
