@@ -9,8 +9,8 @@ Builder	 |Bridge	       |
 Factory Method	|Composite	     |
 Prototype	|Decorator	     |
 Singleton     |        Facade	       |
-         |Flyweight	     |
-         | Proxy          |
+.             |Flyweight	     |
+ .            | Proxy          |
 
 
 
