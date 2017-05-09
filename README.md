@@ -4,17 +4,17 @@ Elements of Reusable Object-Oriented Software is a software engineering book des
 
 Creational     |  Structural  | Behavioral 
 ---------------|--------------|-----------|
-Abstract Factory|	Adapter        |Chain of responsibility
-Builder	 |Bridge	       |Command	
-Factory Method	|Composite	     |Interpreter	
-Prototype	|Decorator	     |Iterator
-Singleton     |        Facade	       |Mediator	
-.             |Flyweight	     |Memento	
- .            | Proxy          |Observer	
-&rarr;|&rarr;|State	
-&nbsp;| &nbsp;|Strategy	
-| |Template 
-| |Visitor
+Abstract Factory|	Adapter     |Chain of responsibility
+Builder	       |Bridge	       |Command	
+Factory Method	|Composite	    |Interpreter	
+Prototype	     |Decorator	    |Iterator
+Singleton      |Facade	       |Mediator	
+&nbsp;         |Flyweight	    |Memento	
+&nbsp;         | Proxy        |Observer	
+&rarr;         |&rarr;        |State	
+&nbsp;         | &nbsp;       |Strategy	
+&nbsp;         |&nbsp;        |Template 
+&nbsp;         |&nbsp;        |Visitor
 
 
 
