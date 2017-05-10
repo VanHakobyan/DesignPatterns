@@ -9,6 +9,7 @@ Elements of Reusable Object-Oriented Software is a software engineering book des
 <li><a href="https://drive.google.com/open?id=0By1MH5wlD0LhLTByR3NUclhKbjQ">:orange_book:Design pattern via c#</a>
 <li><a href="https://drive.google.com/open?id=0By1MH5wlD0LhS2h6eGJDZlF5d00">:green_book:Gamma</a>
 <br>
+<br>
 
 Creational     |  Structural  | Behavioral 
 ---------------|--------------|-----------|
