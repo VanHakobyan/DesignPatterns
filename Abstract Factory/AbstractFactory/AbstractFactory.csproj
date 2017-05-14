@@ -46,6 +46,12 @@
     <Compile Include="AbstractFactory.cs" />
     <Compile Include="AbstractWater.cs" />
     <Compile Include="Client.cs" />
+    <Compile Include="ConcreteClass\CocaColaBottle.cs" />
+    <Compile Include="ConcreteClass\CocaColaFactory.cs" />
+    <Compile Include="ConcreteClass\CocaColaWater.cs" />
+    <Compile Include="ConcreteClass\PepsiBottle.cs" />
+    <Compile Include="ConcreteClass\PepsiFactory.cs" />
+    <Compile Include="ConcreteClass\PepsiWater.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
