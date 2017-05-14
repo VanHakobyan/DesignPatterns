@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.ConcreteClass
 {
-    class PepsiWater:AbstractWater
+    public class PepsiWater : AbstractWater
     {
     }
 }

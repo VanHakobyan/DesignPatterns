@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    abstract class AbstractWater
+    public abstract class AbstractWater
     {
     }
 }

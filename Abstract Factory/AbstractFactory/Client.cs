@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    class Client
+    public class Client
     {
         private AbstractWater water;
         private AbstractBottle bottle;

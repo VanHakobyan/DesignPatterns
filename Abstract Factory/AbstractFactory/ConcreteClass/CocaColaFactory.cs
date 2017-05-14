@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.ConcreteClass
 {
-    class CocaColaFactory : AbstractFactory
+    public class CocaColaFactory : AbstractFactory
     {
         public override AbstractBottle CreateBottle()
         {

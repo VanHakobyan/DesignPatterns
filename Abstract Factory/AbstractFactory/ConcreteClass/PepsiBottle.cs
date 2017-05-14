@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory.ConcreteClass
 {
-    class PepsiBottle : AbstractBottle
+    public class PepsiBottle : AbstractBottle
     {
         public override void Interact(AbstractWater water)
         {
-            Console.WriteLine(this +"Interact with" + water);
+            Console.WriteLine(this + "Interact with" + water);
         }
     }
 }

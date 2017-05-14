@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    abstract class AbstractFactory
+
+    public abstract class AbstractFactory
     {
         public abstract AbstractBottle CreateBottle();
         public abstract AbstractWater CreateWater();
