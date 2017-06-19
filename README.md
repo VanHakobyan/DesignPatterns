@@ -29,7 +29,10 @@ Singleton      |Facade	      |Mediator
 
 <hr/>
 
+### About ✏️
 
+* Visual Studio community 2017 📕
+* C# 7.0 .NET Framework 4.6 📔
 
 
 
