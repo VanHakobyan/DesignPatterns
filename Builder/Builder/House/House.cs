@@ -1,12 +1,14 @@
 ﻿using System;
+using System.Collections;
 
 namespace Builder.House
 {
     class House
     {
-        public House()
+        ArrayList lists = new ArrayList();
+        public void Add(object o)
         {
-            Console.WriteLine("House OK!!!");
+            lists.Add(o);
         }
     }
 }
