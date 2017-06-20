@@ -48,6 +48,7 @@
     <Compile Include="House\Basement.cs" />
     <Compile Include="Pattern\Builder\AbstractBuilder.cs" />
     <Compile Include="Pattern\Builder\Builder.cs" />
+    <Compile Include="Pattern\Foreman.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
