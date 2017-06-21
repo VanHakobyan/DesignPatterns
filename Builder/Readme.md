@@ -8,7 +8,7 @@ The builder pattern is an object creation software design pattern. Unlike the ab
 
 <br>
 
-### C# Implemetation
+### C# Implemetation :notes:
 
 ```C#
 public class Car
@@ -62,4 +62,4 @@ public class CarBuildDirector
 }
 ```
 
-* [My Another Implementation (Build House)](https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder/Builder)
+* [My Another Implementation (Build House)](https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder/Builder):hand:
