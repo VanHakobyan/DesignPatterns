@@ -16,7 +16,7 @@ Elements of Reusable Object-Oriented Software is a software engineering book des
 Creational     |  Structural  | Behavioral 
 ---------------|--------------|-----------|
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Abstract%20Factory">Abstract Factory</a>|	Adapter     |Chain of responsibility
-Builder	       |Bridge	      |Command	
+<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder">Builder</a>	       |Bridge	      |Command	
 Factory Method |Composite	    |Interpreter	
 Prototype	     |Decorator	    |Iterator
 Singleton      |Facade	      |Mediator	
