@@ -10,7 +10,7 @@ Elements of Reusable Object-Oriented Software is a software engineering book des
 <li><a href="https://drive.google.com/open?id=0By1MH5wlD0LhS2h6eGJDZlF5d00">:green_book:Gamma</a>
 </ul>
 <br>
-https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder
+
 ### My implementation in C# :pushpin:
 
 Creational     |  Structural  | Behavioral 
