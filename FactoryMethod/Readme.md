@@ -1,7 +1,8 @@
 <p align="center"><img src="https://dilrukperera.files.wordpress.com/2012/08/normalfac.jpg"></p>
 
-<br>
+
 ### Discussion
+
 
 Factory Method is to creating objects as Template Method is to implementing an algorithm. A superclass specifies all standard and generic behavior (using pure virtual "placeholders" for creation steps), and then delegates the creation details to subclasses that are supplied by the client.
 
