@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/VanHakobyan/DesignPatterns/blob/master/DP.jpg?raw=true"></p>
+<p align="center"><img src="http://www.csharptutor.com/Uploads/Originals/design-patterns-in-programming/DisplayImages/3.jpg"></p>
 
 ### Description :pushpin:
 
