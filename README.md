@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/VanHakobyan/DesignPatterns/blob/master/DP.jpg?raw=true"></p>
+<p align="center"><img src="http://www.csharptutor.com/Uploads/Originals/design-patterns-in-programming/DisplayImages/3.jpg"></p>
 
 ### Description :pushpin:
 
@@ -17,7 +17,7 @@ Creational     |  Structural  | Behavioral
 ---------------|--------------|-----------|
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Abstract%20Factory">Abstract Factory</a>|	Adapter     |Chain of responsibility
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder">Builder</a>	       |Bridge	      |Command	
-Factory Method |Composite	    |Interpreter	
+<a href="https://github.com/VanHakobyan/DesignPatterns/edit/master/FactoryMethod">Factory Method</a> |Composite	    |Interpreter	
 Prototype	     |Decorator	    |Iterator
 Singleton      |Facade	      |Mediator	
 &nbsp;         |Flyweight	    |Memento	
