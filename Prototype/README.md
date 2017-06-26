@@ -11,4 +11,16 @@ PrototypPatternDemo, our demo class will use ShapeCache class to get a Shape obj
 
 <p align="center"><img src="https://www.tutorialspoint.com/design_pattern/images/prototype_pattern_uml_diagram.jpg" alt="Prototype Pattern UML Diagram"></p>
 
+```C#
+class Prototype
+{
+    public string Class { get; set; }
+    public string State { get; set; }
+    public Prototype Clone()
+    {
+        return MemberwiseClone() as Prototype;
+    }
+}
+```
 
+* FULL implementation [here](https://github.com/VanHakobyan/DesignPatterns/tree/master/Prototype/PrototypeInPeople)
