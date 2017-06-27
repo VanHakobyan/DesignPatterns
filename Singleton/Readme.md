@@ -11,7 +11,7 @@ This pattern involves a single class which is responsible to create an object wh
 
 SingleObject class provides a static method to get its static instance to outside world. SingletonPatternDemo, our demo class will use SingleObject class to get a SingleObject object.</h5>
 
-<p align="center"><img src="/design_pattern/images/singleton_pattern_uml_diagram.jpg" alt="Singleton Pattern UML Diagram"></p>
+<p align="center"><img src="https://www.tutorialspoint.com/design_pattern/images/singleton_pattern_uml_diagram.jpg" alt="Singleton Pattern UML Diagram"></p>
 
 ```C# 
 public sealed class Singleton
@@ -48,4 +48,5 @@ public sealed class Singleton
     }
 }
 ```
-<h3>My simple implementation in C#</h3><a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Singleton/SimpleSingleton" >here</a>
+<h3>My simple implementation in C# <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Singleton/SimpleSingleton" >here</a>
+</h3>
