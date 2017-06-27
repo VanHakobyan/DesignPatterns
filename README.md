@@ -11,14 +11,14 @@ Elements of Reusable Object-Oriented Software is a software engineering book des
 </ul>
 <br>
 
-### My implementation in C# :pushpin:
+### Tutorial and my implementation in C# :pushpin:
 
 Creational     |  Structural  | Behavioral 
 ---------------|--------------|-----------|
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Abstract%20Factory">Abstract Factory</a>|	Adapter     |Chain of responsibility
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder">Builder</a>	       |Bridge	      |Command	
 <a href="https://github.com/VanHakobyan/DesignPatterns/edit/master/FactoryMethod">Factory Method</a> |Composite	    |Interpreter	
-Prototype	     |Decorator	    |Iterator
+<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Prototype">Prototype</a>     |Decorator	    |Iterator
 Singleton      |Facade	      |Mediator	
 &nbsp;         |Flyweight	    |Memento	
 &nbsp;         | Proxy        |Observer	
