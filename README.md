@@ -19,7 +19,7 @@ Creational     |  Structural  | Behavioral
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder">Builder</a>	       |Bridge	      |Command	
 <a href="https://github.com/VanHakobyan/DesignPatterns/edit/master/FactoryMethod">Factory Method</a> |Composite	    |Interpreter	
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Prototype">Prototype</a>     |Decorator	    |Iterator
-Singleton      |Facade	      |Mediator	
+<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Singleton">Singleton</a>      |Facade	      |Mediator	
 &nbsp;         |Flyweight	    |Memento	
 &nbsp;         | Proxy        |Observer	
 &nbsp;         |&nbsp;        |State	
