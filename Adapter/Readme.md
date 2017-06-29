@@ -9,7 +9,7 @@
         
 <p><img src="https://www.codeproject.com/KB/architecture/774259/extracted-png-image2.png" width="482" height="375"></p>
         
-<p><h4>ITarget</h4>: This is the interface which is used by the client to achieve functionality.<o:p></p>
-<p><h4>Adaptee</h4>: This is the functionality which the client desires but its interface is not compatible with the client.<o:p></p>
-<p><h4>Client</h4>: This is the class which wants to achieve some functionality by using the adaptee’s code.</p>
-<p><h4>Adapter</h4>: This is the class which would implement ITarget and would call the Adaptee code which the client wants to call.</p>
+<p><b>ITarget</b>: This is the interface which is used by the client to achieve functionality.<o:p></p>
+<p><b>Adaptee</b>: This is the functionality which the client desires but its interface is not compatible with the client.<o:p></p>
+<p><b>Client</b>: This is the class which wants to achieve some functionality by using the adaptee’s code.</p>
+<p><b>Adapter</b>: This is the class which would implement ITarget and would call the Adaptee code which the client wants to call.</p>
