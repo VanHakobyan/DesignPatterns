@@ -9,7 +9,12 @@
         
 <p><img src="https://www.codeproject.com/KB/architecture/774259/extracted-png-image2.png" width="482" height="375"></p>
         
-<p><b>ITarget</b>: This is the interface which is used by the client to achieve functionality.<o:p></p>
-<p><b>Adaptee</b>: This is the functionality which the client desires but its interface is not compatible with the client.<o:p></p>
-<p><b>Client</b>: This is the class which wants to achieve some functionality by using the adaptee’s code.</p>
-<p><b>Adapter</b>: This is the class which would implement ITarget and would call the Adaptee code which the client wants to call.</p>
+<b>ITarget</b>: This is the interface which is used by the client to achieve functionality.<o:p>
+<b>Adaptee</b>: This is the functionality which the client desires but its interface is not compatible with the client.<o:p>
+<b>Client</b>: This is the class which wants to achieve some functionality by using the adaptee’s code.
+<b>Adapter</b>: This is the class which would implement ITarget and would call the Adaptee code which the client wants to call.
+
+<h3>My C# implementation</h3>
+
+* Implementation [AdapterClass](https://github.com/VanHakobyan/DesignPatterns/tree/master/Adapter/AdapterClass)
+* Implementation [AdapterObject](https://github.com/VanHakobyan/DesignPatterns/tree/master/Adapter/AdapterObject)
