@@ -29,7 +29,8 @@
 <h3>Structural code in C#</h3>
 <br>
 <p>This <font color="#bb0000">structural</font> code demonstrates the Bridge pattern which separates (decouples) the interface from its implementation.  The implementation can evolve without changing clients	which use the abstraction of the object.</p>
-```C#
+``` C#
+
 using System;
  
 namespace DoFactory.GangOfFour.Bridge.Structural
@@ -120,6 +121,7 @@ namespace DoFactory.GangOfFour.Bridge.Structural
     }
   }
 }
+ 
  
 ```
 
