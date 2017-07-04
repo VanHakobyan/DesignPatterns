@@ -1,6 +1,5 @@
 ﻿using System.Drawing;
 
-
 namespace Bridge
 {
     class Triangle : Shape

@@ -10,7 +10,6 @@ namespace Bridge
             Pen pen = new Pen(color, 7);
             pen.DashStyle = DashStyle.DashDot;
 
-            // Специальные настройки (Снять комментарий)
             //pen.DashPattern = new float[] { 1.0f, 2.0f };
             //pen.SetLineCap(LineCap.Round, LineCap.Round, DashCap.Round);
 

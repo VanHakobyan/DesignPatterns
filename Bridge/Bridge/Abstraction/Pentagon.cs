@@ -1,7 +1,4 @@
-﻿
-
-using System.Drawing;
-
+﻿using System.Drawing;
 namespace Bridge
 {
     class Pentagon : Shape
