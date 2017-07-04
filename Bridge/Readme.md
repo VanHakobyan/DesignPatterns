@@ -330,6 +330,6 @@ namespace DoFactory.GangOfFour.Bridge.RealWorld
 
 #### Output :crocodile:
 
-<img scr="https://i.gyazo.com/88f238e0fad50b26b958fde5a967189b.png">
+<p align="left"><img scr="https://i.gyazo.com/88f238e0fad50b26b958fde5a967189b.png"></p>
 	    
 	    
