@@ -24,3 +24,106 @@
 			and defines its concrete implementation.</li> 
 			</ul></li>
 			</ul>
+<hr><br>
+
+<h3>Structural code in C#</h3>
+<br>
+<p>This <font color="#bb0000">structural</font> code demonstrates the Bridge pattern which separates (decouples) the interface from its implementation.  The implementation can evolve without changing clients	which use the abstraction of the object.</p>
+```C#
+using System;
+ 
+namespace DoFactory.GangOfFour.Bridge.Structural
+{
+  /// <summary>
+  /// MainApp startup class for Structural
+  /// Bridge Design Pattern.
+  /// </summary>
+  class MainApp
+  {
+    /// <summary>
+    /// Entry point into console application.
+    /// </summary>
+    static void Main()
+    {
+      Abstraction ab = new RefinedAbstraction();
+ 
+      // Set implementation and call
+      ab.Implementor = new ConcreteImplementorA();
+      ab.Operation();
+ 
+      // Change implemention and call
+      ab.Implementor = new ConcreteImplementorB();
+      ab.Operation();
+ 
+      // Wait for user
+      Console.ReadKey();
+    }
+  }
+ 
+  /// <summary>
+  /// The 'Abstraction' class
+  /// </summary>
+  class Abstraction
+  {
+    protected Implementor implementor;
+ 
+    // Property
+    public Implementor Implementor
+    {
+      set { implementor = value; }
+    }
+ 
+    public virtual void Operation()
+    {
+      implementor.Operation();
+    }
+  }
+ 
+  /// <summary>
+  /// The 'Implementor' abstract class
+  /// </summary>
+  abstract class Implementor
+  {
+    public abstract void Operation();
+  }
+ 
+  /// <summary>
+  /// The 'RefinedAbstraction' class
+  /// </summary>
+  class RefinedAbstraction : Abstraction
+  {
+    public override void Operation()
+    {
+      implementor.Operation();
+    }
+  }
+ 
+  /// <summary>
+  /// The 'ConcreteImplementorA' class
+  /// </summary>
+  class ConcreteImplementorA : Implementor
+  {
+    public override void Operation()
+    {
+      Console.WriteLine("ConcreteImplementorA Operation");
+    }
+  }
+ 
+  /// <summary>
+  /// The 'ConcreteImplementorB' class
+  /// </summary>
+  class ConcreteImplementorB : Implementor
+  {
+    public override void Operation()
+    {
+      Console.WriteLine("ConcreteImplementorB Operation");
+    }
+  }
+}
+ 
+```
+
+#### Output
+
+* ConcreteImplementorA Operation
+* ConcreteImplementorB Operation
