@@ -45,3 +45,61 @@ class SubSystemC
 }
 
 ```
+* 3 SubSystem in one Facade :tophat:
+
+```C# 
+class Facade
+{
+    SubSystemA subSystemA = new SubSystemA();
+    SubSystemB subSystemB = new SubSystemB();
+    SubSystemC subSystemC = new SubSystemC();
+
+    public void OperacionAB()
+    {
+        subSystemA.OperacionA();
+        subSystemB.OperacionB();
+    }
+    public void OperacionBC()
+    {
+        subSystemB.OperacionB();
+        subSystemC.OperacionC();
+    }
+    public void OperacionAC()
+    {
+        subSystemA.OperacionA();
+        subSystemC.OperacionC();
+    }
+    public void OperacionABC()
+    {
+        subSystemA.OperacionA();
+        subSystemB.OperacionB();
+        subSystemC.OperacionC();
+    }
+}
+
+```
+
+* And Finally Client :suspect:
+
+```C#
+static void Main(string[] args)
+{
+    Facade facade = new Facade();
+    facade.OperacionAB();
+    Console.WriteLine(new string('-',50));
+    facade.OperacionAC();
+    Console.WriteLine(new string('-',50));
+    facade.OperacionBC();
+    Console.WriteLine(new string('-',50));
+    facade.OperacionABC();
+    Console.WriteLine(new string('-',50));
+}
+```
+
+* Output :eyes:
+
+<img src="https://i.gyazo.com/9383546e59a20695907877254b9e5fa4.png">
+
+### About project 
+
+* Full project <a href="https://github.com/VanHakobyan/DesignPatterns/edit/master/Facade">here</a>
