@@ -7,11 +7,11 @@ This pattern creates a decorator class which wraps the original class and provid
 
 We are demonstrating the use of decorator pattern via following example in which we will decorate a shape with some color without alter shape class.
 
-### Implementation:rat:
+### Implementation :rat:
 
 * Carlson - Component :baby_chick:
 
-``` C#
+```C#
 
 class Carlson : AbstractCarlson
 {
