@@ -49,5 +49,5 @@ class Program
 
 ```
 
-Full for implementation <a href"https://github.com/VanHakobyan/DesignPatterns/tree/master/Proxy/ProxySurrogate">here</a>
+Full for implementation <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Proxy/ProxySurrogate">here</a>
 
