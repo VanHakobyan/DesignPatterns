@@ -138,4 +138,4 @@ namespace DoFactory.GangOfFour.Flyweight.Structural
 
 ### Another Implementation of Bruce :cop:
 
-Bruce Surrogate implemenation <a href"https://github.com/VanHakobyan/DesignPatterns/tree/master/Flyweight/Flyweight">here</a> :older_man:
+Bruce Surrogate implemenation <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Flyweight/Flyweight">here</a> :older_man:
