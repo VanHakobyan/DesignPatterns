@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FlyweightActor")]
+[assembly: AssemblyTitle("Flyweight")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FlyweightActor")]
+[assembly: AssemblyProduct("Flyweight")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e435b95f-12d1-47b8-9f5e-89a53cc5e9d6")]
+[assembly: Guid("0c341269-e173-4c08-87d8-904d074eccd6")]
 
 // Version information for an assembly consists of the following four values:
 //

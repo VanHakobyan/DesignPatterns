@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E435B95F-12D1-47B8-9F5E-89A53CC5E9D6}</ProjectGuid>
+    <ProjectGuid>{0C341269-E173-4C08-87D8-904D074ECCD6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>FlyweightActor</RootNamespace>
-    <AssemblyName>FlyweightActor</AssemblyName>
+    <RootNamespace>Flyweight</RootNamespace>
+    <AssemblyName>Flyweight</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFlyweight.cs" />
+    <Compile Include="ConctreteFlyweight.cs" />
+    <Compile Include="FlyweightFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnsharedConctreteFlyweight.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
