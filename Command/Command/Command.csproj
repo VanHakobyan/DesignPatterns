@@ -48,6 +48,7 @@
     <Compile Include="ConcreteCommand\Div.cs" />
     <Compile Include="ConcreteCommand\Mul.cs" />
     <Compile Include="ConcreteCommand\Sub.cs" />
+    <Compile Include="ControleUnit.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
