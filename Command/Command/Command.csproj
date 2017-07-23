@@ -42,6 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractCommand.cs" />
+    <Compile Include="ArithmeticUnit.cs" />
+    <Compile Include="ConcreteCommand\Add.cs" />
+    <Compile Include="ConcreteCommand\Div.cs" />
+    <Compile Include="ConcreteCommand\Mul.cs" />
+    <Compile Include="ConcreteCommand\Sub.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
