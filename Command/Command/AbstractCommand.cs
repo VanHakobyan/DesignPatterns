@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Command
 {
-    class AbstractCommand
+    abstract class AbstractCommand
     {
+        protected ArithmeticUnit aUnit;
+        protected int operand;
+
+        public abstract void Execute();
+        public abstract void UnExecute();
     }
 }
