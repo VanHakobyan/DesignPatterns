@@ -13,8 +13,8 @@ namespace Command
         }
         public int Run(AbstractCommand command)
         {
-            cUnit.ExecuteCommand();
             cUnit.StoreCommand(command);
+            cUnit.ExecuteCommand();
             return aUnit.Register;
         }
         public int Add(int operand)

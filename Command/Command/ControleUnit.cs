@@ -25,7 +25,7 @@ namespace Command
         {
             for (int i = 0; i < level; i++)
                 if (current < commands.Count - 1)
-                    commands[++current].Execute();
+                    commands[current++].Execute();
         }
     }
 }
