@@ -74,4 +74,4 @@ class Calculator
 }
 ```
 
-* Full implemetation <a href="https://github.com/VanHakobyan/DesignPatterns/blob/master/Command/Command">her</>
+* Full implemetation <a href="https://github.com/VanHakobyan/DesignPatterns/blob/master/Command/Command">her<a/>
