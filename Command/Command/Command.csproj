@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="AbstractCommand.cs" />
     <Compile Include="ArithmeticUnit.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="ConcreteCommand\Add.cs" />
     <Compile Include="ConcreteCommand\Div.cs" />
     <Compile Include="ConcreteCommand\Mul.cs" />
