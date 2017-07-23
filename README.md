@@ -17,7 +17,7 @@ Elements of Reusable Object-Oriented Software is a software engineering book des
 Creational     |  Structural  | Behavioral 
 ---------------|--------------|-----------|
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Abstract%20Factory">Abstract Factory</a>|	<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Adapter">Adapter</a>     |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Chain%20of%20Responsibility">Chain of Responsibility</a>
-<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder">Builder</a>	       |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Bridge">Bridge</a>	      |Command	
+<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Builder">Builder</a>	       |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Bridge">Bridge</a>	      |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Command">Command</a>	
 <a href="https://github.com/VanHakobyan/DesignPatterns/edit/master/FactoryMethod">Factory Method</a> |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Composite">Composite</a>	    |Interpreter	
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Prototype">Prototype</a>     |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Decorator">Decorator</a>	    |Iterator
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Singleton">Singleton</a>      |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Facade">Facade</a>	      |Mediator	
