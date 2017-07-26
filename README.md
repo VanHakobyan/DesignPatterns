@@ -32,8 +32,8 @@ Creational     |  Structural  | Behavioral
 
 ### About ✏️
 
-* Visual Studio community 2017 📕
-* C# 7.0 .NET Framework 4.6 📔
+* Visual Studio 2017 Enterprise  📕
+* C# 7.0 .NET Framework 4.6/4.7 📔
 
 
 
