@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Interpreter
 {
@@ -10,6 +6,14 @@ namespace Interpreter
     {
         static void Main(string[] args)
         {
+            var context = new Context
+            {
+                Vocabulary = 'a',
+                Source = "aaa"
+            };
+            var expresion = new NonTerminalExpression();
+            expresion.Interpret(context);
+            Console.WriteLine(context.Result);
         }
     }
 }
