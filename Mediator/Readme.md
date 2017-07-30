@@ -1,3 +1,5 @@
+<p align="center"><img src="https://i.ytimg.com/vi/jWF6dvSr_Pk/hqdefault.jpg"></p><br>
+
 ```C#
 
 abstract class Colleague
