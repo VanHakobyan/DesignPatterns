@@ -1,3 +1,5 @@
+<p align="center"><img src="http://i1.wp.com/themoderndeveloper.com/wp-content/uploads/2013/08/Featured_IteratorPattern.jpg?resize=612%2C253"></p>
+
 This article aims at explaining the Iterator pattern and having a rudimentary implementation of the Iterator pattern in C#. This article is meant for beginners and does not use any language built-in features for iterations.
 
 Having a collection of objects is a very common thing in software development. If we have a collection of objects then we might also find ourselves in need to traverse this collection. Most languages provide traversal techniques over basic collection types. C# also contain some special container types capable of holding a collection of values (example: Lists, and ArrayLists in C#). These specialized containers also come with the possibility of getting iterated. C# container classes are the best examples of how the iterator pattern is implemented.
@@ -86,4 +88,4 @@ static void Main(string[] args)
 }
 ```
 
-Source code <a href="https://github.com/VanHakobyan/DesignPatterns/blob/master/Iterator/IteratorBank">her</a>
+### Source code <a href="https://github.com/VanHakobyan/DesignPatterns/blob/master/Iterator/IteratorBank">her</a>
