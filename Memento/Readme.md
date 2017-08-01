@@ -16,6 +16,60 @@ Let’s look at the UML of the memento pattern first, then we will look at some 
 
 <hr>
 
-The Memento class stores the historical information of the Originator. The information is stored in its state variable.
-The Caretaker class manages the list of Memento. This is the class for the client code to access.
-The key to the Memento Design Pattern is that the client code will never access the Memento object, all of the interactions are done through the Caretaker class. The client code does not need to be concerned about how the states are stored and retrieved.
+* The Memento class stores the historical information of the Originator. The information is stored in its state variable.
+* The Caretaker class manages the list of Memento. This is the class for the client code to access.
+* The key to the Memento Design Pattern is that the client code will never access the Memento object, all of the interactions are done through the Caretaker class. The client code does not need to be concerned about how the states are stored and retrieved.
+
+```C#
+namespace Man_and_Robot
+{
+    internal class Man
+    {
+        public string Clothes { get; internal set; }
+
+        public Backpack Undress()
+        {
+            return new Backpack(Clothes);
+        }
+
+        public void Dress(Backpack backpack)
+        {
+            Clothes = backpack.Contents;
+        }
+    }
+    
+    internal class Robot
+    {
+        public Backpack Backpack { get; internal set; }
+    }
+    
+    public class Backpack
+    {
+        public Backpack(string contents)
+        {
+            Contents = contents;
+        }
+
+        public string Contents { get; internal set; }
+    }
+}
+
+//Main
+
+  
+static void Main(string[] args)
+{
+    var Van = new Man();                  // it's me ))
+ 
+    var armRobot = new Robot();           //this is my robot
+
+    Van.Clothes = "Short,Sneakers,Jeans"; //I dress it up
+    armRobot.Backpack = Van.Undress();     
+    Console.WriteLine(Van.Clothes);
+    Van.Clothes = "Sporting short";       //I dress it up
+    Console.WriteLine(Van.Clothes);
+    Van.Dress(armRobot.Backpack);
+}
+```
+
+This code you can view <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Memento/Man%20and%20Robot">her</a>
