@@ -22,8 +22,8 @@ Creational     |  Structural  | Behavioral
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Prototype">Prototype</a>     |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Decorator">Decorator</a>	    |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Iterator">Iterator</a>
 <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Singleton">Singleton</a>      |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Facade">Facade</a>	      |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Mediator">Mediator</a>	
 &nbsp;         |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Flyweight">Flyweight</a>	    |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Memento">Memento</a>	
-&nbsp;         |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Proxy">Proxy</a>        |Observer	
-&nbsp;         |&nbsp;        |State	
+&nbsp;         |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Proxy">Proxy</a>        |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Observer">Observer</a>
+&nbsp;         |&nbsp;        |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/State">State</a>	
 &nbsp;         | &nbsp;       |Strategy	
 &nbsp;         |&nbsp;        |Template 
 &nbsp;         |&nbsp;        |Visitor
