@@ -24,7 +24,7 @@ Creational     |  Structural  | Behavioral
 &nbsp;         |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Flyweight">Flyweight</a>	    |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Memento">Memento</a>	
 &nbsp;         |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Proxy">Proxy</a>        |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Observer">Observer</a>
 &nbsp;         |&nbsp;        |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/State">State</a>	
-&nbsp;         | &nbsp;       |Strategy	
+&nbsp;         | &nbsp;       |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Strategy">Strategy</a>	
 &nbsp;         |&nbsp;        |Template 
 &nbsp;         |&nbsp;        |Visitor
 
