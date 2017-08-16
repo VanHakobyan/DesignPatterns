@@ -9,3 +9,7 @@ Let’s understand the widely accepted definition of strategy pattern which you 
 2) Encapsulate each one of them- The pattern would force you to place your algorithms in different classes (encapsulate them). Doing so would help us in selecting the appropriate algorithm for our object.
 
 3) Make them interchangeable- The beauty with strategy pattern is we can select at run time which algorithm we should apply to our object and can replace them with one another
+
+<img src="https://i.gyazo.com/91dc187f4b79e12368704d68bc47c4c3.png">
+
+* Sorting algorithm implementation <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Strategy/Strategy">her</a>
