@@ -26,7 +26,7 @@ Creational     |  Structural  | Behavioral
 &nbsp;         |&nbsp;        |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/State">State</a>	
 &nbsp;         | &nbsp;       |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Strategy">Strategy</a>	
 &nbsp;         |&nbsp;        |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Template">Template</a> 
-&nbsp;         |&nbsp;        |Visitor
+&nbsp;         |&nbsp;        |<a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Visitor">Visitor</a>
 
 <hr/>
 
