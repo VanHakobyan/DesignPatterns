@@ -10,8 +10,10 @@ namespace Template
     {
         static void Main(string[] args)
         {
-            var flag = new UkraineFlag() as TwoColorFlag;
-            flag.Draw();
+            var armeniabFlag = new ArmenianFlag();
+            armeniabFlag.Draw();
+            var spainFlag = new SpainFlag();
+            spainFlag.Draw();
         }
     }
 }
