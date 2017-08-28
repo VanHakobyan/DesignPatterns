@@ -32,4 +32,4 @@ Most importantly, this class will contain a Non Abstract method that will be cal
 2. <h3>Concrete Classes:</h3> These will be concrete implementations of our abstract steps of the tests and technical interviews, depending on the departments.
 
 
-For more and my sourse code go <a href="https://github.com/VanHakobyan/DesignPatterns/edit/master/Template/template">her</a> 
+For more and my sourse code go <a href="https://github.com/VanHakobyan/DesignPatterns/tree/master/Template/Template">her</a> 
