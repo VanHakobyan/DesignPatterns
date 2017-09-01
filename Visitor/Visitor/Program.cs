@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Visitor
+﻿namespace Visitor
 {
     class Program
     {
         static void Main(string[] args)
         {
+            var village = new Village();
+            village.Add(new BoysHouse());
+            village.Add(new GirlsHouse());
+            village.Accept(new Santa());
         }
     }
 }
