@@ -25,7 +25,7 @@ namespace CompositeTree
         {
             nodes.Remove(component);
         }
-        public override Component GerChild(int index)
+        public override Component GetChild(int index)
         {
             return nodes[index] as Component;
         }
