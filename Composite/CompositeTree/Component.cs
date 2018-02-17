@@ -10,7 +10,7 @@
         public abstract void Operation();
         public abstract void Add(Component component);
         public abstract void Remove(Component component);
-        public abstract Component GerChild(int index);
+        public abstract Component GetChild(int index);
 
     }
 }
